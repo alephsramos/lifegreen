@@ -240,7 +240,7 @@ html, body{
 }
 
 .section-inicial-left h4{
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 300;
     color: var(--cor-primaria);
 }
@@ -344,6 +344,7 @@ html, body{
 .section-two-image-card img{
     width: 300px;
     height: 500px;
+    border-radius: 20px;
 }
 
 .section-two-card-container {
@@ -380,12 +381,13 @@ html, body{
 .section-two-card-item i {
     color: var(--cor-texto);
     margin-bottom: 3%;
-    font-size: 30px;
+    font-size: 20px;
     background-color: var(--cor-primaria);
     width: 50px;
     height: 50px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
+    border-radius: 50%;
 }
 
 
@@ -417,7 +419,7 @@ html, body{
 }
 
 .section-tre-titulos h6{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     opacity: 0.8;
     font-weight: 300;
 }
@@ -521,7 +523,7 @@ html, body{
 }
 
 .section-for-title h6{
-    font-size: 1rem;
+    font-size: 1.2rem;
     opacity: 0.8;
     font-weight: 300;
 }
@@ -745,10 +747,12 @@ html, body{
     object-fit: cover;
     object-position: center;
     margin-top: 25px;
+    border-radius: 20px;
 }
 
 .section-six-texts{
     display: flex;
+    margin-left: 20px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -792,6 +796,7 @@ html, body{
     width: 100%;
     float: right;
     text-align: right;
+    margin-right: 40px;
 }
 
 .section-six-text-3 p{
